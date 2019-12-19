@@ -10,3 +10,5 @@ lecs :: https://www.youtube.com/watch?v=s5juP-2G42I&list=PLE6LEE8y2Jp_z8pkiuvHo7
 uwaterlooGDB:: https://www.youtube.com/watch?v=U4PYFgzevQ0
 
 uwatloOS161install:: https://www.youtube.com/watch?v=U4PYFgzevQ0
+
+book:: pages.cs.wisc.edu/~remzi/OSTEP/
