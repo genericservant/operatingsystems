@@ -1,0 +1,12 @@
+	Treads abstract the CPU
+
+	Address spaces abstrace the Memory
+
+	Filesystem abstract the Disk
+
+	-
+
+	Process abstract other abstractions
+-------------
+	~$ /bin/true
+	~$ /bin/false
