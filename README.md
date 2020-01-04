@@ -13,4 +13,10 @@ book:: pages.cs.wisc.edu/~remzi/OSTEP/
 
 self::papers https://learn.saylor.org/course/cs401
 
+git branch --set-upstream-to=origin/<branch> master
+
 https://kerneltalks.com/
+
+https://sites.google.com/site/os161ubc/os161-installation
+
+
