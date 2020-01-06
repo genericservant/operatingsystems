@@ -14,3 +14,5 @@ book:: pages.cs.wisc.edu/~remzi/OSTEP/
 self::papers https://learn.saylor.org/course/cs401
 
 https://kerneltalks.com/
+
+https://www.cyberciti.biz/
