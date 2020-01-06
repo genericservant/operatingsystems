@@ -9,7 +9,8 @@ main(int argc, char **argv)
 	char *args[] = {"0", "i", "am", "a", "monster", NULL};
 	execvp("./0", args);
 
-	/*exec never returns unless error so this area never executed...
+	/*
+		exec never returns unless error so this area never executed...
 		process has been replaced here!.
 
 		everything gets wiped out

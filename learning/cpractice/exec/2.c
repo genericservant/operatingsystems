@@ -23,7 +23,11 @@ main(int argc, char **argv)
 	}
 
 
-	/*exec never returns unless error so this area never executed...
+	/*
+		This is count down replaces old process with new n from nMinus
+		snprintf writes to specified stream
+		
+		exec never returns unless error so this area never executed...
 		process has been replaced here!.
 
 		everything gets wiped out
