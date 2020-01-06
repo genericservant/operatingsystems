@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <unistd.h>
+#include <time.h>
 
 
 void
@@ -37,6 +38,8 @@ random_shuffle(int *data, size_t s)
 {
 	if (s<= 1 || data == NULL) return;
 	int i = 0, r = 0, p = 0, d = 0;
+	time_t t;
+	srand((unsigned)time(&t));
 	while(i < s)
 	{
 		r = rand() % s;
