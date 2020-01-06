@@ -3,13 +3,13 @@
 int
 foo(void *i, char j)
 {
-  switch(j)
-  {
-    case 'i': printf("%d\n", *(int *)i); break;
-    case 'c': printf("%c\n", *(char *)i); break;
-		case 's': printf("%s\n", (char *)i); break;
-    default: printf("Not found!\n");
-  }
+	switch(j)
+	{
+	case 'i': printf("%d\n", *(int *)i); break;
+	case 'c': printf("%c\n", *(char *)i); break;
+	case 's': printf("%s\n", (char *)i); break;
+	default: printf("Not found!\n");
+	}
   return 0;
 }
 
@@ -18,9 +18,11 @@ foo(void *i, char j)
 int
 main(void)
 {
-  char i = 65, j = 'c';
+	int i = 7;
+	char c = 65, c_t = 'c';
 	char *s = "hello";
-  foo(&i, j);
+	foo(&i, 'i');
+	foo(&i, c_t);
 	foo(s, 's');
 
 	return 0;
