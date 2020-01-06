@@ -22,7 +22,7 @@ main(void)
 	char c = 65, c_t = 'c';
 	char *s = "hello";
 	foo(&i, 'i');
-	foo(&i, c_t);
+	foo(&c, c_t);
 	foo(s, 's');
 
 	return 0;
