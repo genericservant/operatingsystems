@@ -9,6 +9,11 @@
 int
 main(int argc, char **argv)
 {
+	/** Do as little as possible between the fork and the exec because 
+	linux will have to copy address space of current prog
+	useless because alredy exec will replace whole process
+	the copy of curr_process will be wiped out by exec	
+	*/
 	for (int i = 0; i < NUM_CHILDREN; i++)
 		{
 		pid_t pid = fork();
