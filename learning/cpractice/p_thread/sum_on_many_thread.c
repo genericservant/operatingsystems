@@ -43,6 +43,9 @@ main (int argc, char **argv)
 		s_r_s[i] = (_sum_runner) { .limit = atoll(argv[i+1]), .answer = 0 };
 		//long long limit = atoll(argv[i+1]);
 		
+		// maybe copping address space because global variables are same as this current process
+		// the addresss space is the same
+		// if run on same variable instead of array of i-th struct then all printfs give same value that is the (argc-1)*sum_of(argv[1])
 		// Creating attributes
 		pthread_attr_t attr;
 		pthread_attr_init(&attr);
